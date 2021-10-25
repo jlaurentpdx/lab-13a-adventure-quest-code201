@@ -13,8 +13,7 @@ input[type=radio]:checked + img {
 }
 
 legend {
-    background-color: #000;
-    color: #fff;
+    background-color: whitesmoke;
     padding: 3px 6px;
     border: #000;
 }

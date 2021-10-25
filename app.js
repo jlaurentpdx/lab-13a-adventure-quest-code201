@@ -10,6 +10,5 @@ userForm.addEventListener('submit', (e) => {
 
     setUser(userObj);
 
-    // window.location.replace('./map');
-    window.location.reload();
+    window.location.replace('./map');
 });
