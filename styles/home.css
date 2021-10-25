@@ -1,1 +1,13 @@
-/* add home page styles here */
+img {
+    width: 200px;
+}
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+input {
+    margin: .4rem;
+}
