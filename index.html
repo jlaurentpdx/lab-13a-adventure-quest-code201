@@ -15,32 +15,34 @@
 </head>
 
 <body>
-    <form id="user-form">
-        <label for="name">
-            Your Adventurer Name:
-            <input type="text" name="name" value="name">
-        </label>
-        <fieldset>
-            <legend> Choose your race: </legend>
-            <label>
-                <input type="radio" name="race" value="wizard">
-                <img src="assets/wizard.png" alt="Wizard">
+    <main>
+        <form id="user-form">
+            <label for="name">
+                Your Adventurer Name:
+                <input type="text" name="name" required value="">
             </label>
-            <label>
-                <input type="radio" name="race" value="knight">
-                <img src="assets/knight.png" alt="Knight">
-            </label>
-            <label>
-                <input type="radio" name="race" value="archer">
-                <img src="assets/archer.png" alt="Archer">
-            </label>
-            <label>
-                <input type="radio" name="race" value="dinosaur">
-                <img src="assets/dinosaur.png" alt="a guy in a dinosaur costume">
-            </label>
-        </fieldset>
-        <button id="submit">Submit</button>
-    </form>
+            <fieldset>
+                <legend> Choose your race: </legend>
+                <label>
+                    <input type="radio" name="race" value="wizard" checked>
+                    <img src="assets/wizard.png" alt="Wizard">
+                </label>
+                <label>
+                    <input type="radio" name="race" value="knight">
+                    <img src="assets/knight.png" alt="Knight">
+                </label>
+                <label>
+                    <input type="radio" name="race" value="archer">
+                    <img src="assets/archer.png" alt="Archer">
+                </label>
+                <label>
+                    <input type="radio" name="race" value="dinosaur">
+                    <img src="assets/dinosaur.png" alt="a guy in a dinosaur costume">
+                </label>
+            </fieldset>
+            <button id="submit">Submit</button>
+        </form>
+    </main>
 
     <script type="module" src="./app.js"></script>
 </body>

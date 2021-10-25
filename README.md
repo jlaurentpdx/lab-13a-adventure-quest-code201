@@ -5,9 +5,9 @@
 - [x] Text input for user name
 - [x] Radio buttons for user race
 * Events
-- [ ] On form submit:
-    - [ ] Generate a user object using form data (generateUser)
-    - [ ] Store user data in localStorage (setUser)
+- [x] On form submit:
+    - [x] Generate a user object using form data (generateUser)
+    - [x] Store user data in localStorage (setUser)
     - [x] Redirect to the map page
 
 ## Map Page 
