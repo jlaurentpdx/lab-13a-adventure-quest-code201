@@ -8,6 +8,6 @@ export function generateUser(formData) {
     };
 }
 
-export function setUser() {
-
+export function setUser(userObject) {
+    return localStorage.setItem('USER', JSON.stringify(userObject));
 }
