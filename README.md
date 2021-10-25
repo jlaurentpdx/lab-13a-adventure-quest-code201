@@ -8,7 +8,7 @@
 - [ ] On form submit:
     - [ ] Generate a user object using form data (generateUser)
     - [ ] Store user data in localStorage (setUser)
-    - [ ] Redirect to the map page
+    - [x] Redirect to the map page
 
 ## Map Page 
 * HTML Elements
