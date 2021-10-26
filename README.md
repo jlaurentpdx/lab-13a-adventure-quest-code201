@@ -13,7 +13,7 @@
 ## Map Page 
 * HTML Elements
 - [x] List of links for each quest (generated from quest-data)
-    - [ ] Link should NOT be clickable if the user has already completed the quest
+    - [x] Link should NOT be clickable if the user has already completed the quest
     - [x] Link should contain a URL search parameter containing the quest ID
 
 * Events
