@@ -16,5 +16,8 @@ export function generateUser(formData) {
 }
 
 export function setUser(userObject) {
-    return localStorage.setItem('USER', JSON.stringify(userObject));
+    localStorage.setItem('USER', JSON.stringify(userObject));
+}
+export function getUser() {
+    return JSON.parse(localStorage.getItem('USER'));
 }
