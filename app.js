@@ -1,4 +1,4 @@
-import { generateUser, setUser } from './utils.js';
+import { generateUser, setUser } from './common/utils.js';
 
 const userForm = document.getElementById('user-form');
 

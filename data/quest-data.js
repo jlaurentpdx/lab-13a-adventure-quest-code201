@@ -11,7 +11,7 @@ const monsters = {
         top: '89%',
         left: '44%'
     },
-    image: '../assets/dark-forest.jpg',
+    image: 'big-logo.png',
     description: `
         You enter the quest chamber only to be confronted by a hoard of
         monsters. And they look hungry. What do you do?
@@ -56,7 +56,7 @@ const dragon = {
         top: '17%',
         left: '37%'
     },
-    image: 'dragon.jpg',
+    image: 'big-logo.png',
     audio: 'dragon.wav',
     action: 'dragon-growl.aiff',
     description: `
@@ -112,7 +112,7 @@ const treasure = {
         left: '5%'
     },
     prerequisites: ['dragon', 'monsters'],
-    image: 'treasure-chests.png',
+    image: 'big-logo.png',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `
