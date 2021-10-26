@@ -17,17 +17,18 @@
     - [x] Link should contain a URL search parameter containing the quest ID
 
 * Events
-- [ ] On page load -- TBD: Game logic
+- [x] On page load -- TBD: Game logic
+- [x] If player hp is >= 0 or all quests complete, redirect to gameover/
 
 ## Quest Detail Page
 * HTML Elements
 - [x] Title
 - [x] Description
 - [x] Quest Image
-- [ ] Quest choices (radio buttons)
+- [x] Quest choices (radio buttons)
 
 * Events 
 - [x] On page load, get the quest ID from the URLSearchParam and load the quest data onto the page
-- [ ] On form submit
-     - [ ] Update the user data
-     - [ ] Redirect to the map page
+- [x] On form submit
+     - [x] Update the user data
+     - [x] Redirect to the map page
