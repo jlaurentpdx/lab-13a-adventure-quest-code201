@@ -20,7 +20,7 @@ for (let choice of quest.choices) {
     input.type = 'radio';
     input.name = 'choice';
     input.required = true;
-    input.vaue = choice.id;
+    input.value = choice.id;
 
     const span = document.createElement('span');
     span.textContent = choice.description;

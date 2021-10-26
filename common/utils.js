@@ -21,3 +21,9 @@ export function setUser(userObject) {
 export function getUser() {
     return JSON.parse(localStorage.getItem('USER'));
 }
+
+export function scoreQuest(choiceObject, questID, userObject) {
+    userObject.hp += choiceObject.hp;
+    userObject.gold += choiceObject.gold;
+    userObject.completed[questID] = true;
+}
