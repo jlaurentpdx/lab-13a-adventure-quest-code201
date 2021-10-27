@@ -1,1 +1,36 @@
-/* add home page styles here */
+main {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[type=radio] + img {
+    width: 200px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+input[type=radio]:checked + img {
+    background-color: crimson;
+}
+
+legend {
+    background-color: whitesmoke;
+    padding: 3px 6px;
+    border: #000;
+}
+
+input {
+    margin: .4rem;
+}
+
+fieldset {
+    display: grid;
+    width: 400px;
+    grid-template-columns: 200px 200px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove black;
+}
