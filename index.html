@@ -6,42 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800&family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Red Planet</title>
 </head>
 
 <body>
+    <div id="backdrop">
+        <h1>Red Planet</h1>
+    </div>
     <main>
         <form id="user-form">
             <label for="name">
-                Your Adventurer Name:
-                <input type="text" name="name" required value="">
+                <input type="text" name="name" required value="" placeholder="Enter your name">
             </label>
             <fieldset>
-                <legend> Choose your race: </legend>
+                <legend>Select Role:</legend>
                 <label>
-                    <input type="radio" name="race" value="wizard" checked>
-                    <img src="assets/wizard.png" alt="Wizard">
+                    <input type="radio" name="job" value="white" checked>
+                    <img src="assets/white.png" alt="white">
+                    <p>Astronaut</p>
                 </label>
                 <label>
-                    <input type="radio" name="race" value="knight">
-                    <img src="assets/knight.png" alt="Knight">
+                    <input type="radio" name="job" value="orange">
+                    <img src="assets/orange.png" alt="orange">
+                    <p>Engineer</p>
                 </label>
                 <label>
-                    <input type="radio" name="race" value="archer">
-                    <img src="assets/archer.png" alt="Archer">
+                    <input type="radio" name="job" value="blue">
+                    <img src="assets/blue.png" alt="blue">
+                    <p>Scout</p>
                 </label>
                 <label>
-                    <input type="radio" name="race" value="dinosaur">
-                    <img src="assets/dinosaur.png" alt="a guy in a dinosaur costume">
+                    <input type="radio" name="job" value="purple">
+                    <img src="assets/purple.png" alt="purple">
+                    <p>Rogue</p>
                 </label>
             </fieldset>
-            <button id="submit">Submit</button>
+            <button id="submit">PROCEED</button>
         </form>
+        <section id="container">
+            <h2>Your Mission:</h2>
+            <p id="mission">Survey the landscape of the planet for signs of life. Bring back whatever you can find.</p>
+        </section>
     </main>
 
     <script type="module" src="./app.js"></script>
