@@ -1,36 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/astronaut.jpg');
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#backdrop {
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    color: rgb(226, 132, 98);
+    background-color: rgba(100, 0, 20, 0.5);
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: darkred;
+}
+
 main {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+label, input { 
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;     
+    font-size: larger;
+
+    color: wheat;
+}
+
+input[type=text], input[type=text]:active {
+    background-color: darkslategrey;
+    border: 3px solid wheat;
+    border-radius: 2px;
+    margin: 15px 0 10px 10px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type=radio] {
+    display: none;
 }
 
 input[type=radio] + img {
     width: 200px;
-    border-radius: 50%;
-    background-color: whitesmoke;
+    filter: blur(2px) sepia();
 }
 
 input[type=radio]:checked + img {
-    background-color: crimson;
+    filter: none;
 }
 
 legend {
-    background-color: whitesmoke;
-    padding: 3px 6px;
-    border: #000;
-}
-
-input {
-    margin: .4rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: wheat;
+    background-color: #803500;
+    border: 3px outset orangered;
+    border-radius: 5px;
+    padding: 10px 40px 10px 10px;
 }
 
 fieldset {
     display: grid;
     width: 400px;
-    grid-template-columns: 200px 200px;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    border: 2px groove black;
+    grid-template-columns: 300px 300px;
+    text-align: center;
+
+    padding: 10px;
+    
+    background-color: rgba(50, 50, 50, 0.5);
+
+    border: 10px outset orangered;
+    border-radius: 10%;
+}
+
+button {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3rem;
+
+    width: auto;
+    height: 100px;
+    padding: 0 20px 0 20px;
+
+    background-color: darkslategrey;
+    color: whitesmoke;
+
+    position: absolute;
+    top: 650px;
+    bottom: 500px;
+    left: 940px;
+    right: 0;
+}
+
+
+#mission {
+    color: wheat;
+    background-color: rgba(50, 50, 50, 0.5);
+
+    text-align: center;
+    width: 800px;
+    height: 580px;
+
+    border: 10px outset orangered;
+    border-radius: 10%;
+
+    padding: 145px;
+    margin: 0;
+    margin-left: 20px;
+
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2rem;
 }
